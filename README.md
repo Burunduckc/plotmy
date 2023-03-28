@@ -1,2 +1,0 @@
-# plotmy
-Fullstack Project

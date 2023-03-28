@@ -1,0 +1,72 @@
+.log{
+  background-color: #EFEFEF;
+  height: 100vh;
+  &_block{
+    width: 459px;
+    height: 274px;
+    margin: 25px auto;
+    background-color: white;
+    border-radius: 10px;
+    &_name{
+      text-align: center;
+      padding-top: 38px;
+
+    }
+  }
+  &_logo{
+    font-size: 48px;
+    text-align: center;
+    padding-top: 58px;
+    color: #6945FF;
+    font-weight: bold;
+    //font-family: Serif;
+    span{
+      color: #FF6B55;
+    }
+  }
+  &_form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    &_input-one{
+      width: 418px;
+      margin-left: 10px;
+      border: none;
+      outline: none;
+      border-bottom: 1px solid #DBDBDB;
+      height:25px;
+
+      &::placeholder{
+        color: #A7A8AA;
+        padding-bottom: 10px;
+      }
+    }
+    &_input-two{
+      height:25px;
+      padding-top: 43px;
+      width: 418px;
+      margin-left: 10px;
+      border: none;
+      border-bottom: 1px solid #DBDBDB;
+      outline: none;
+      &::placeholder{
+
+        color: #A7A8AA;
+
+      }
+    }
+  }
+  &_btn{
+    margin: 35px auto;
+    width: 418px;
+    height: 40px;
+    background: #FF6B55;
+    cursor: pointer;
+    &_txt{
+      color: white;
+      text-align: center;
+      text-transform: uppercase;
+      padding-top: 10px;
+    }
+  }
+}
